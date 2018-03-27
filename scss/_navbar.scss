@@ -4,6 +4,11 @@
     background-color: white;
     @include transition-all;
     @include heading-font;
+    &.dark {
+      a {
+        color: black !important;
+      }
+    }
     .navbar-brand {
         color: $gray-base;
         @include heading-font;
